@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
 
+import Slider from './slider';
 import Row from 'react-bootstrap/lib/Row';
 import Col from 'react-bootstrap/lib/Col';
 
@@ -50,7 +51,7 @@ class Main extends React.Component{
                     <CallBtn>Отправить заявку!</CallBtn>
                 </Col>
                 <Col lg={6} lgOffset={1}>
-
+                    <Slider />
                 </Col>
             </Row>
         )
